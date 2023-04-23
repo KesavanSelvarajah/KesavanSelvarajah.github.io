@@ -1,6 +1,6 @@
 html,
 body {
-  width: 210mm;
+  zoom: 1.2;
   padding: 48px;
   user-select: none;
   -moz-user-select: none;
@@ -19,6 +19,10 @@ body {
   font-weight: normal;
   line-height: 1.5;
   margin: auto;
+}
+
+.row.row--section {
+  width: 210mm;
 }
 
 * {
